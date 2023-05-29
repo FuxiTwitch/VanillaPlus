@@ -19,3 +19,49 @@ a{
     text-decoration: none;
     border-radius: 5px;
 }
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 44px;
+}
+.progress-bar{
+    background: white;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: #008cff;
+}
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #2e2e2e;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress span{
+    border: 1px solid #008cff;
+}
+
+.progress{
+    animation: progress 1s ease-in-out forwards;
+}
+@keyframes progress{
+    100%{
+        width: 6%;
+    }
+}
