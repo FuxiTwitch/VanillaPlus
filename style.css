@@ -13,9 +13,9 @@ body{
 a{
     display: block;
     background: #008cff;
-    color: #000000;
+    color: #ffffff;
     padding: 15px;
     cursor: pointer;
-    text-decoration: solid;
+    text-decoration: none;
     border-radius: 5px;
 }
